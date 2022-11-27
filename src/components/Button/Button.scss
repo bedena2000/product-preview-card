@@ -1,0 +1,23 @@
+.buttonIcon {
+  background-color: rgba(92, 92, 79, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  padding: 12px 14px;
+  overflow: hidden;
+  border-radius: 10px;
+  &:hover {
+    background-color: rgba(92, 92, 79, 0.95);
+    cursor: pointer;
+  }
+  img {
+    margin-right: 20px;
+    color: inherit;
+  }
+  p {
+    color: inherit;
+  }
+}
